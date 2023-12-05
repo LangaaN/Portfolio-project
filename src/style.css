@@ -115,6 +115,7 @@ nav ul {
   width: 100%;
   max-width: 100%;
   height: auto;
+  flex-wrap: wrap;
 }
 
 .col-md-6 {
@@ -133,6 +134,11 @@ img {
   text-align: center;
   margin: 30px;
   padding: 160px 20px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container h1 {
